@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="393dp"
+        android:src="@drawable/mylogo2"
+        tools:srcCompat="@drawable/mylogo2" />
+
+    <Button
+        android:id="@+id/view_users"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="View Users"
+        android:textAllCaps="false"
+        android:textColor="#ff0000"
+        android:textSize="15dp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
